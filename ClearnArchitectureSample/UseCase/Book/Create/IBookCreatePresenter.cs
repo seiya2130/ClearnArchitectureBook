@@ -4,7 +4,7 @@ using System.Text;
 
 namespace UseCase.Book.Create
 {
-    interface IBookCreatePresenter
+    public interface IBookCreatePresenter
     {
         void Complete(BookCreateOutputData outputData);
     }
