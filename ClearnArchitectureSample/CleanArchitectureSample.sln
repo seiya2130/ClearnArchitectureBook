@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "UseCase", "UseCase\UseCase.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InMemoryInfrastructure", "InMemoryInfrastructure\InMemoryInfrastructure.csproj", "{50900D04-755A-4120-A430-4B9BFC0E7AF4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlInfrastructure", "MySqlInfrastructure\MySqlInfrastructure.csproj", "{0690FE4A-4D75-42E5-87F9-2070F3DE06D4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MySqlInfrastructure", "MySqlInfrastructure\MySqlInfrastructure.csproj", "{0690FE4A-4D75-42E5-87F9-2070F3DE06D4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsoleApp", "ConsoleApp\ConsoleApp.csproj", "{90833266-51B2-471C-B506-8C15A11DB67A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{0690FE4A-4D75-42E5-87F9-2070F3DE06D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0690FE4A-4D75-42E5-87F9-2070F3DE06D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0690FE4A-4D75-42E5-87F9-2070F3DE06D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{90833266-51B2-471C-B506-8C15A11DB67A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{90833266-51B2-471C-B506-8C15A11DB67A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{90833266-51B2-471C-B506-8C15A11DB67A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{90833266-51B2-471C-B506-8C15A11DB67A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
