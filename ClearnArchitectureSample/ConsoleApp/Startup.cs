@@ -6,6 +6,7 @@ using MySqlInfrastructure.Books;
 using UseCase.Book.Create;
 using Domain.Domain.Books;
 using InMemoryInfrastructure.Books;
+using Domain.Application.Book;
 
 namespace ConsoleApp
 {
